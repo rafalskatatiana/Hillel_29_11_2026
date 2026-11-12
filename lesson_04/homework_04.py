@@ -1,5 +1,3 @@
-from lesson_03.homework_03 import count
-
 adwentures_of_tom_sawer = """\
 Tom gave up the brush with reluctance in his .... face but alacrity
 in his heart. And while
@@ -55,7 +53,7 @@ for words in adwentures_of_tom_sawer.split(): # разділяє тест на �
     words = words.lstrip('"') # прибирає кавичку на початку слова
     if words[0].isupper(): #  [0] тільки першу букву перевіряє
         count += 1
-print(count)
+print(f'{count} слів у тексті починається з Великої літери')
 
 # task 06
 """ Виведіть позицію, на якій слово Tom зустрічається вдруге
